@@ -1,0 +1,50 @@
+[
+  {
+    "agency":"JAXA",
+    "mission":"ALOS-2",
+    "platform_code":"",
+    "instrument":"PALSAR-2",
+    "fullName":"JAXA ALOS-2 PALSAR-2",
+    "shortName":"ALOS-2-PALSAR-2",
+    "acronym":"A2_P2",
+    "mnemonic":"ALOSPAL",
+    "flat_id":"JAXA-ALOS2-PALSAR2",
+    "hierarchical_id":"A_JAXA-M_ALOS2-I_PALSAR2",
+    "band_code":"LBAND",
+    "band_common":"l_band",
+    "flat_id_band":"JAXA-ALOS2-PALSAR2-LBAND",
+    "hierarchical_id_band":"A_JAXA-M_ALOS2-I_PALSAR2-B_LBAND"
+  },
+  {
+    "agency":"JAXA",
+    "mission":"ALOS-2",
+    "platform_code":"",
+    "instrument":"PALSAR-2",
+    "fullName":"JAXA ALOS-2 PALSAR-2",
+    "shortName":"ALOS-2-PALSAR-2",
+    "acronym":"A2_P2",
+    "mnemonic":"ALOSPAL",
+    "flat_id":"JAXA-ALOS2-PALSAR2",
+    "hierarchical_id":"A_JAXA-M_ALOS2-I_PALSAR2",
+    "band_code":"HH",
+    "band_common":"hh_pol",
+    "flat_id_band":"JAXA-ALOS2-PALSAR2-HH",
+    "hierarchical_id_band":"A_JAXA-M_ALOS2-I_PALSAR2-B_HH"
+  },
+  {
+    "agency":"JAXA",
+    "mission":"ALOS-2",
+    "platform_code":"",
+    "instrument":"PALSAR-2",
+    "fullName":"JAXA ALOS-2 PALSAR-2",
+    "shortName":"ALOS-2-PALSAR-2",
+    "acronym":"A2_P2",
+    "mnemonic":"ALOSPAL",
+    "flat_id":"JAXA-ALOS2-PALSAR2",
+    "hierarchical_id":"A_JAXA-M_ALOS2-I_PALSAR2",
+    "band_code":"HV",
+    "band_common":"hv_pol",
+    "flat_id_band":"JAXA-ALOS2-PALSAR2-HV",
+    "hierarchical_id_band":"A_JAXA-M_ALOS2-I_PALSAR2-B_HV"
+  }
+]

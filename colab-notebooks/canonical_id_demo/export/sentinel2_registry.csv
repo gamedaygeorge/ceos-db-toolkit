@@ -1,0 +1,3 @@
+agency,mission,platform_code,instrument,fullName,shortName,acronym,mnemonic,flat_id,hierarchical_id
+ESA,Sentinel-2,A,MSI,ESA Sentinel-2 A MSI,Sentinel-2-MSI-A,S2_M_A,SENTMSIA,ESA-SENT2-MSI-A,A_ESA-M_SENT2-P_A-I_MSI
+ESA,Sentinel-2,B,MSI,ESA Sentinel-2 B MSI,Sentinel-2-MSI-B,S2_M_B,SENTMSIB,ESA-SENT2-MSI-B,A_ESA-M_SENT2-P_B-I_MSI
