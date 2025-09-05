@@ -1,3 +1,3 @@
-agency,mission,platform_code,instrument,fullName,shortName,acronym,mnemonic,flat_id,hierarchical_id
-ESA,Sentinel-2,A,MSI,ESA Sentinel-2 A MSI,Sentinel-2-MSI-A,S2_M_A,SENTMSIA,ESA-SENT2-MSI-A,A_ESA-M_SENT2-P_A-I_MSI
-ESA,Sentinel-2,B,MSI,ESA Sentinel-2 B MSI,Sentinel-2-MSI-B,S2_M_B,SENTMSIB,ESA-SENT2-MSI-B,A_ESA-M_SENT2-P_B-I_MSI
+agency,programme,constellation,mission,platform,platform_code,instrument,sensor,campaign,cospar,nssdca,fullName,shortName,acronym,mnemonic,flat_id,hierarchical_id
+ESA,Sentinel,Sentinel-2,Sentinel-2A,Sentinel-2A,A,MSI,MSI-A,,2015-028A,2015-028A,ESA Sentinel-2A A MSI,Sentinel-2A-MSI-A,S2_M_A,SENTMSIA,ESA-SENT2A-MSI-A,A_ESA-M_SENT2A-P_A-I_MSI
+ESA,Sentinel,Sentinel-2,Sentinel-2B,Sentinel-2B,B,MSI,MSI-B,,2017-013A,2017-013A,ESA Sentinel-2B B MSI,Sentinel-2B-MSI-B,S2_M_B,SENTMSIB,ESA-SENT2B-MSI-B,A_ESA-M_SENT2B-P_B-I_MSI

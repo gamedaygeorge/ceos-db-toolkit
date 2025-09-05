@@ -1,26 +1,40 @@
 [
   {
     "agency":"ESA",
-    "mission":"Sentinel-2",
+    "programme":"Sentinel",
+    "constellation":"Sentinel-2",
+    "mission":"Sentinel-2A",
+    "platform":"Sentinel-2A",
     "platform_code":"A",
     "instrument":"MSI",
-    "fullName":"ESA Sentinel-2 A MSI",
-    "shortName":"Sentinel-2-MSI-A",
+    "sensor":"MSI-A",
+    "campaign":"",
+    "cospar":"2015-028A",
+    "nssdca":"2015-028A",
+    "fullName":"ESA Sentinel-2A A MSI",
+    "shortName":"Sentinel-2A-MSI-A",
     "acronym":"S2_M_A",
     "mnemonic":"SENTMSIA",
-    "flat_id":"ESA-SENT2-MSI-A",
-    "hierarchical_id":"A_ESA-M_SENT2-P_A-I_MSI"
+    "flat_id":"ESA-SENT2A-MSI-A",
+    "hierarchical_id":"A_ESA-M_SENT2A-P_A-I_MSI"
   },
   {
     "agency":"ESA",
-    "mission":"Sentinel-2",
+    "programme":"Sentinel",
+    "constellation":"Sentinel-2",
+    "mission":"Sentinel-2B",
+    "platform":"Sentinel-2B",
     "platform_code":"B",
     "instrument":"MSI",
-    "fullName":"ESA Sentinel-2 B MSI",
-    "shortName":"Sentinel-2-MSI-B",
+    "sensor":"MSI-B",
+    "campaign":"",
+    "cospar":"2017-013A",
+    "nssdca":"2017-013A",
+    "fullName":"ESA Sentinel-2B B MSI",
+    "shortName":"Sentinel-2B-MSI-B",
     "acronym":"S2_M_B",
     "mnemonic":"SENTMSIB",
-    "flat_id":"ESA-SENT2-MSI-B",
-    "hierarchical_id":"A_ESA-M_SENT2-P_B-I_MSI"
+    "flat_id":"ESA-SENT2B-MSI-B",
+    "hierarchical_id":"A_ESA-M_SENT2B-P_B-I_MSI"
   }
 ]

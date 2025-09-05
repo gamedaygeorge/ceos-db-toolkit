@@ -1,22 +1,38 @@
 """
-idkit.py — CEOS-style canonical identifier utilities
-----------------------------------------------------
+idkit.py — Canonical Identifier Toolkit for CEOS DB demo
 
-Generates persistent, harmonised identifiers for EO agencies, missions,
-platforms, and instruments, with multiple “incarnations”:
+This lightweight library supports the August 2025 discussion thread 
+("Acronyms for EO sensors") between Peter Strobl, George Dyke, and colleagues.
 
-- fullName   (human friendly, ~256 chars)
-- shortName  (ASCII, <= 32)
-- acronym    (ASCII, <= 16)
-- mnemonic   (file/URI safe, <= 8)
-- flat_id    (file/URI safe, <= 48 by default)
-- hierarchical_id (human+machine readable, <= 64 by default)
+Purpose:
+--------
+Provide a self-contained way to generate *harmonised, persistent identifiers*
+for EO entities (agency, mission, platform, instrument, sensor) following 
+the proposed CEOS DB rules.
 
-Design goals:
-- Deterministic & configurable (length caps, policies)
-- File/URI safety (no spaces; conservative charset)
-- Uniqueness namespaces per incarnation with suffixing
+Each identifier can be minted in several "incarnations" for different use cases:
+    - fullName      : up to 256 chars, human-friendly
+    - shortName     : ≤32 chars, ASCII
+    - acronym       : ≤16 chars, ASCII
+    - mnemonic      : ≤8 chars, URI/file-safe (AWS-style)
+    - flat_id       : ≤48 chars, file-name safe, dash-separated
+    - hierarchical_id : ≤64 chars, structured with prefixes (A_, M_, P_, I_)
+
+Design notes:
+-------------
+- Colons (:) are avoided for filename safety; only '-' and '_' are allowed.
+- Mnemonics are capped at 8 chars and uniqueness is enforced without overflow.
+- Configurable limits (via IdConfig) let you adjust length policies.
+- Band/mode extensions are supported (e.g. MSI_B2, PALSAR_HH).
+- Validation helpers check length invariants across datasets.
+
+Intended Use:
+-------------
+This module is imported into the Jupyter notebook demo (`canonical_id_demo.ipynb`) 
+to illustrate how CEOS DB could maintain and publish canonical identifiers, 
+both for internal consistency and alignment with STAC/CDSE metadata fields.
 """
+
 
 from __future__ import annotations
 import re
