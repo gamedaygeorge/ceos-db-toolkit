@@ -39,18 +39,12 @@ This prototype supports the identifier concepts proposed in the **August 2025 â€
 
 ---
 
-## Try It Out Online
-
-Open and run the notebook directly in your browserâ€”no setup required:
-
-- **Google Colab** (recommended):  
-  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gamedaygeorge/ceos-db-toolkit/blob/canonical-id-demo/colab-notebooks/canonical_id_demo/canonical_id_demo.ipynb)
-
-- **Binder** (alternative option):  
-  [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gamedaygeorge/ceos-db-toolkit/canonical-id-demo?labpath=colab-notebooks%2Fcanonical_id_demo%2Fcanonical_id_demo.ipynb)
+## View Online
 
 - **nbviewer** (read-only):  
   [View the rendered notebook](https://nbviewer.org/github/gamedaygeorge/ceos-db-toolkit/blob/canonical-id-demo/colab-notebooks/canonical_id_demo/canonical_id_demo.ipynb)
+
+> Note: nbviewer shows the saved outputs. To experiment interactively or modify the demo, run it locally.
 
 ---
 
